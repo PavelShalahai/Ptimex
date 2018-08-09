@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTimex", "PTimex\PTimex.csproj", "{CF5216EE-54B3-4359-B2BA-6B1806BF672D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5216EE-54B3-4359-B2BA-6B1806BF672D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5216EE-54B3-4359-B2BA-6B1806BF672D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5216EE-54B3-4359-B2BA-6B1806BF672D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5216EE-54B3-4359-B2BA-6B1806BF672D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64BEB813-C259-4FFE-8F40-0F2BB352FFA2}
+	EndGlobalSection
+EndGlobal
