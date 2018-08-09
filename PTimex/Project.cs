@@ -21,9 +21,13 @@ namespace PTimex
         [StringLength(50)]
         public string Title { get; set; }
 
+        [DataType(DataType.DateTime), Required]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         [Column(TypeName = "date")]
         public DateTime StartDate { get; set; }
 
+        [DataType(DataType.DateTime), Required]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         [Column(TypeName = "date")]
         public DateTime EndDate { get; set; }
 
