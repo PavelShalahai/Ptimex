@@ -1,0 +1,13 @@
+---
+  execution:
+  - concurrency: 2
+  hold-for: 3m
+  ramp-up: 2m
+  
+  scenario: Test sc
+scenarios:
+  Test sc:
+    requests:
+    - label: first
+      method: GET
+      url: https://google.com
